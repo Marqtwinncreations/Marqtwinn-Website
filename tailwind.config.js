@@ -2,7 +2,9 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
+  plugins: [require("tw-elements/dist/plugin")],
   theme: {
     extend: {
       backgroundImage: {
@@ -18,7 +20,9 @@ module.exports = {
         'theme-black': '#212129',
         'theme-white-1': '#FAFAFA',
         'theme-orange': '#FF7337',
-        'theme-blue':'#7E98FD'
+        'theme-blue':'#7E98FD',
+        'theme-blue-border':'#1F3244',
+        'theme-gray':'#2E2E3F;'
       },
 
       borderRadius: {

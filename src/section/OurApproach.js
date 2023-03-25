@@ -1,4 +1,5 @@
 import React from 'react'
+import Accordian from '../components/Accordian'
 
 const OurApproach = () => {
     return (
@@ -12,12 +13,12 @@ const OurApproach = () => {
                 </h1>
             </div>
 
-            <div className='flex justify-center'>
-                <div>
-                    <img alt='' src='Assets/ApproachSection/ApproachImg.svg' />
+            <div className='flex justify-center pt-6'>
+                <div className='relative top-7'>
+                    <img alt='w-8/12 ' src='Assets/ApproachSection/ApproachImg.svg' />
                 </div>
-                <div>
-
+                <div className='w-4/12 self-center'>
+                    <Accordian />
                 </div>
             </div>
         </div>
