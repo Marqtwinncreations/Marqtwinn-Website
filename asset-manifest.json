@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Marqtwinn-Website/static/css/main.dc3e83ee.css",
+    "main.js": "/Marqtwinn-Website/static/js/main.2235a823.js",
+    "static/media/homePageBg.svg": "/Marqtwinn-Website/static/media/homePageBg.b29fdd1327393f66d336.svg",
+    "index.html": "/Marqtwinn-Website/index.html",
+    "main.dc3e83ee.css.map": "/Marqtwinn-Website/static/css/main.dc3e83ee.css.map",
+    "main.2235a823.js.map": "/Marqtwinn-Website/static/js/main.2235a823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc3e83ee.css",
+    "static/js/main.2235a823.js"
+  ]
+}
